@@ -8,3 +8,13 @@ Build the container:
 Run the container:
 
 `make run`
+
+
+## Example Dockerfile
+
+```
+FROM integrii/example-docker-app
+ENV VERSION="My Version 1.0"
+EXPOSE 80
+ENTRYPOINT /app/app
+```
